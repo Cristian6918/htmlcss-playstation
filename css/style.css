@@ -4,5 +4,13 @@
 
 .bg-black{
     background-color: black;
-    
+
+}
+
+.ct-w100{
+    width:100%;
+}
+
+.ct-w150px{
+    width:150px;
 }
