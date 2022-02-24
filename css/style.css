@@ -1,10 +1,13 @@
 
 
-
+/* utilities */
 
 .bg-black{
     background-color: black;
+}
 
+.ct-color-black{
+    color:black !important;
 }
 
 .ct-w100{
@@ -14,3 +17,4 @@
 .ct-w150px{
     width:150px;
 }
+
