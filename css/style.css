@@ -13,8 +13,19 @@
 .ct-w100{
     width:100%;
 }
+.ct-h100{
+    height: 100%;
+}
 
 .ct-w150px{
     width:150px;
 }
 
+.ct-text-color-white{
+    color:white !important;
+}
+
+.jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    height:70vh;background-position: center;
+}
