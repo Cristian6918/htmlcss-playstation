@@ -24,8 +24,19 @@
 .ct-text-color-white{
     color:white !important;
 }
+.ct-color-aqua{
+    color:aqua;
+}
+.ct-color-lightgrey{
+    color:lightslategrey;
+}
 
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
     height:70vh;background-position: center;
 }
+.sec-img div img{
+    border-radius:20px;
+    padding:0.3rem;
+}
+
