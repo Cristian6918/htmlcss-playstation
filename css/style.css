@@ -33,6 +33,9 @@
 .ct-color-lightgrey{
     color:lightslategrey;
 }
+.ct-rounded-20px{
+    border-radius: 20px;
+}
 
 
 /* contents */
@@ -62,9 +65,18 @@
 }
 
  #ct-new-games a{
+     display:inline;
      text-decoration: none;
      color:white;
+} 
+
+.ct-card{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
 }
+
+
 
 
 
