@@ -38,6 +38,8 @@
 }
 
 
+
+
 /* contents */
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
@@ -57,11 +59,18 @@
     filter:opacity(1);
 }
 
+
 .ct-new-section{
     height: 60vh;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position:center;
     background-size:cover;
+}
+ #ct-new-games,
+ #ct-new-games a div.card, 
+ #ct-new-games a div.card-body, 
+ #ct-new-games-container{
+    background-color: #1f1f1f;
 }
 
  #ct-new-games a{
@@ -70,11 +79,7 @@
      color:white;
 } 
 
-.ct-card{
-    display: flex;
-    flex-direction:column;
-    justify-content: space-between;
-}
+
 
 
 
