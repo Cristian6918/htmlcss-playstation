@@ -9,6 +9,9 @@
 .ct-color-black{
     color:black !important;
 }
+.ct-color-white{
+    color:white !important;
+}
 
 .ct-w100{
     width:100%;
@@ -57,3 +60,11 @@
     background-position:center;
     background-size:cover;
 }
+
+ #ct-new-games a{
+     text-decoration: none;
+     color:white;
+}
+
+
+
