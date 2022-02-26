@@ -50,3 +50,10 @@
     border-bottom:2px solid aqua;
     filter:opacity(1);
 }
+
+.ct-new-section{
+    height: 60vh;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position:center;
+    background-size:cover;
+}
