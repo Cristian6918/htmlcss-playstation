@@ -31,6 +31,8 @@
     color:lightslategrey;
 }
 
+
+/* contents */
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
     height:70vh;background-position: center;
@@ -38,4 +40,13 @@
 .sec-img div img{
     border-radius:20px;
 }
-
+ #ps5-accessories a{
+     text-decoration: none;
+     filter: opacity(0.5);
+     color:black;
+ }
+ 
+ #ps5-accessories a:hover{
+    border-bottom:2px solid aqua;
+    filter:opacity(1);
+}
