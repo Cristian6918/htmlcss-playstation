@@ -19,6 +19,9 @@
 .ct-h100{
     height: 100%;
 }
+.ct-h-5vh{
+    height: 5vh;
+}
 
 .ct-w150px{
     width:150px;
@@ -26,6 +29,10 @@
 
 .ct-text-color-white{
     color:white !important;
+}
+
+.ct-color-blue{
+    color:blue;
 }
 .ct-color-aqua{
     color:aqua;
@@ -78,6 +85,16 @@
      text-decoration: none;
      color:white;
 } 
+#ct-ps-plus{
+    background-color:#bebcbb;
+}
+
+.ct-btn-light{
+    background-color:#d9dadc;
+   
+    color: blue;
+    
+}
 
 
 
