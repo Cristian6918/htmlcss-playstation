@@ -37,17 +37,25 @@
 .ct-color-aqua{
     color:aqua;
 }
+.ct-color-black{
+    color:black !important;
+}
 .ct-color-lightgrey{
     color:lightslategrey;
 }
 .ct-rounded-20px{
     border-radius: 20px;
 }
+.ct-margin-top-115{ 
+    margin-top: 115px;
+  }
 
 
 
 
 /* contents */
+
+
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
     height:70vh;background-position: center;
@@ -125,5 +133,31 @@ footer a:hover{
 }
 
 
+.ct-dropdown-menu {
+    position: fixed;
+    top: -1000px;
+    left: 0;
+    margin-top:90;
+    
+  }
 
+.ct-menu-show:hover .ct-dropdown-menu {
+    top: 0px;
+  }
+  .ct-menu-show:focus-within .ct-dropdown-menu{
+    top: 0px;
+  }
+  
+  .chevron{
+      content:url(../img/chevron-down-solid.svg);
+      width:10px;
+      display: inline;
+      vertical-align:middle;
+  }
 
+  .ct-menu-show:hover .chevron {
+    content:url(../img/chevron-down-solid-hover.svg);
+  }
+  .ct-menu-show:focus-within .chevron {
+    content:url(../img/chevron-down-solid-hover.svg);
+  }
