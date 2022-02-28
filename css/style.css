@@ -4,6 +4,7 @@
 }
 
 
+
 /* utilities */
 
 .bg-black{
@@ -62,7 +63,8 @@
 
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
-    height:70vh;background-position: center;
+    height:70vh;
+    background-position: center;
 }
 
  #ps5-accessories a{
@@ -209,4 +211,5 @@ footer a:hover{
 .card img:hover{
     transform:scale(1.05);
 }
+
 
