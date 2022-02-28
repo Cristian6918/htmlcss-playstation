@@ -94,7 +94,35 @@
     color:white;
 }
 
+footer{
+    background-color:#00439c;
+}
 
+
+#ct-language img{
+    width:20px;
+    margin-right:10px;
+}
+
+footer li{
+   
+    list-style-type: none;
+}
+footer a{
+    text-decoration:none;
+    color:white;
+}
+footer ul{
+    padding-inline-start:0px;
+}
+
+footer a:last-of-type{
+    text-decoration:underline;
+}
+
+footer a:hover{
+    color:lightgrey;
+}
 
 
 
