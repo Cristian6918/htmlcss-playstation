@@ -1,4 +1,8 @@
 
+:root{
+    --ct-transition:all 0.5s ease-in-out;
+}
+
 
 /* utilities */
 
@@ -60,13 +64,12 @@
     background-image: url(../img/jumbo-bg.png);
     height:70vh;background-position: center;
 }
-.sec-img div img{
-    border-radius:20px;
-}
+
  #ps5-accessories a{
      text-decoration: none;
      filter: opacity(0.5);
      color:black;
+     border-bottom:2px solid transparent;
  }
  
  #ps5-accessories a:hover{
@@ -104,9 +107,16 @@
 
 footer{
     background-color:#00439c;
+    
+}
+footer a{
+    color:white;
 }
 
-
+#ct-language{
+    text-decoration: none;
+    
+}
 #ct-language img{
     width:20px;
     margin-right:10px;
@@ -116,10 +126,7 @@ footer li{
    
     list-style-type: none;
 }
-footer a{
-    text-decoration:none;
-    color:white;
-}
+
 footer ul{
     padding-inline-start:0px;
 }
@@ -132,7 +139,7 @@ footer a:hover{
     color:lightgrey;
 }
 
-
+/* dropdown menu */
 .ct-dropdown-menu {
     position: fixed;
     top: -1000px;
@@ -144,20 +151,32 @@ footer a:hover{
 .ct-menu-show:hover .ct-dropdown-menu {
     top: 0px;
   }
-  .ct-menu-show:focus-within .ct-dropdown-menu{
+.ct-menu-show:focus-within .ct-dropdown-menu{
     top: 0px;
-  }
+}
   
-  .chevron{
+.chevron{
       content:url(../img/chevron-down-solid.svg);
       width:10px;
       display: inline;
       vertical-align:middle;
+}
+
+.ct-menu-show:hover .chevron {
+    content:url(../img/chevron-down-solid-hover.svg);
+}
+.ct-menu-show:focus-within .chevron {
+    content:url(../img/chevron-down-solid-hover.svg);
+}
+
+.sec-img:hover > div {
+    opacity: 0.5;
+    transition: var(--ct-transition);
   }
 
-  .ct-menu-show:hover .chevron {
-    content:url(../img/chevron-down-solid-hover.svg);
-  }
-  .ct-menu-show:focus-within .chevron {
-    content:url(../img/chevron-down-solid-hover.svg);
-  }
+.sec-img:hover > div:hover{
+    opacity:1;
+    transform: translate(0 , -15px);
+
+}
+
