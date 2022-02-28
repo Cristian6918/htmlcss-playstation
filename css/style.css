@@ -70,6 +70,7 @@
      filter: opacity(0.5);
      color:black;
      border-bottom:2px solid transparent;
+     transition: var(--ct-transition);
  }
  
  #ps5-accessories a:hover{
@@ -145,11 +146,13 @@ footer a:hover{
     top: -1000px;
     left: 0;
     margin-top:90;
+    padding-inline-start: 0;
     
   }
 
 .ct-menu-show:hover .ct-dropdown-menu {
     top: 0px;
+    
   }
 .ct-menu-show:focus-within .ct-dropdown-menu{
     top: 0px;
@@ -169,14 +172,41 @@ footer a:hover{
     content:url(../img/chevron-down-solid-hover.svg);
 }
 
+
+
+
 .sec-img:hover > div {
     opacity: 0.5;
     transition: var(--ct-transition);
-  }
+}
 
 .sec-img:hover > div:hover{
     opacity:1;
     transform: translate(0 , -15px);
+}
+.btn-brd{
+    border:2px solid transparent;
+}
 
+.btn-brd:hover{
+    border:2px solid white;
+}
+
+.btn-primary:hover{
+    box-shadow:0px 0px 0px 3px  var(--bs-primary);
+}
+.btn-danger:hover{
+    box-shadow:0px 0px 0px 3px  var(--bs-danger);
+}
+.btn-light:hover{
+    box-shadow:0px 0px 0px 3px  var(--bs-light);
+}
+
+.card img{
+    transition: var(--ct-transition);
+}
+
+.card img:hover{
+    transform:scale(1.05);
 }
 
