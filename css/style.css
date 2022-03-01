@@ -1,6 +1,5 @@
 
-:root{
-    --ct-transition:all 0.5s ease-in-out;
+:root{ --ct-transition: all 0.5s ease-in-out;
 }
 
 
@@ -63,8 +62,8 @@
 
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
-    height:70vh;
     background-position: center;
+    height:70vh;
 }
 
  #ps5-accessories a{
@@ -88,8 +87,8 @@
     background-size:cover;
 }
  #ct-new-games,
- #ct-new-games a div.card, 
- #ct-new-games a div.card-body, 
+ #ct-new-games .card, 
+ #ct-new-games .card-body, 
  #ct-new-games-container{
     background-color: #1f1f1f;
 }
@@ -131,7 +130,7 @@ footer li{
 }
 
 footer ul{
-    padding-inline-start:0px;
+    padding-inline-start:0;
 }
 
 footer a:last-of-type{
@@ -149,21 +148,20 @@ footer a:hover{
     left: 0;
     margin-top:90;
     padding-inline-start: 0;
-    
   }
 
 .ct-menu-show:hover .ct-dropdown-menu {
-    top: 0px;
+    top: 0;
     
   }
 .ct-menu-show:focus-within .ct-dropdown-menu{
-    top: 0px;
+    top: 0;
 }
   
 .chevron{
       content:url(../img/chevron-down-solid.svg);
       width:10px;
-      display: inline;
+      display: inline-block;
       vertical-align:middle;
 }
 
@@ -195,13 +193,13 @@ footer a:hover{
 }
 
 .btn-primary:hover{
-    box-shadow:0px 0px 0px 3px  var(--bs-primary);
+    box-shadow:0 0 0 3px  var(--bs-primary);
 }
 .btn-danger:hover{
-    box-shadow:0px 0px 0px 3px  var(--bs-danger);
+    box-shadow:0 0 0 3px  var(--bs-danger);
 }
 .btn-light:hover{
-    box-shadow:0px 0px 0px 3px  var(--bs-light);
+    box-shadow:0 0 0 3px  var(--bs-light);
 }
 
 .card img{
